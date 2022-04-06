@@ -1,3 +1,83 @@
 
-      
+    body{
+        background-color: #f2f2f2;
+        }
+        .topnav {
+            background-color: #0793b6;
+            overflow: hidden;
+            margin-top:2%;
+          }
+          .topnav h{
+            padding:1%;
+        float:left;
+        font-size:25px;
+          }
+          .topnav a {
+            float:right;
+            color: #f2f2f2;
+            text-align: center;
+            padding:1% ;
+            text-decoration: none;
+            font-size: 20px;
+          }
+          .topnav a:hover {
+            background-color: #ddd;
+          }
+          
+          .topnav a.active {
+            background-color: #0d92bb;
+            color: white
+          }
+        
+          .userHome {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 35% 35% 35% 35% ;
+            grid-template-columns: 15% 15% 15% 20% ;
+            gap: 120px;
+            border-radius: 25px;
+            padding: 30px;
+        
+          }
+          button{
+            border-radius:25px ;
+            font-weight: bold;
+            cursor: pointer;
+          }
+          .userHome> div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px;
+            padding-bottom:0px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 25px;
+          }
+          
+          .b1{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 4;
+            grid-column-end: 5;
+          }
+         input{
+              width: 230px;
+              height: 50px;
+              border-radius: 10px;
+              box-shadow: inset 0px 0px 25px 0px #888;
+              border: none;
+              outline: none;
+              background-color: #fff;
+         }
+        
+         #submitButton
+    {
+        width: 120px;
+              height: 30px;
+              border-radius: 15px;
+              background-color: #0787d1;
+              color: white;
+              font-size: 15px;
+              border: none;
+    }  
      
